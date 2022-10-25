@@ -17,12 +17,12 @@ const SongCard = ({ song, i }) => {
       </div>
 
       <div className="mt-4 flex flex-col">
-        <p>
+        <p className="front-semibold text-lg text-white truncate">
           <Link>
             {song.title}
           </Link>
         </p>
-        <p>
+        <p className="text-sm truncate text-gray-300 mt-1">
           <Link>
             {song.subtitle}
           </Link>
