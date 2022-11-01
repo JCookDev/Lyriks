@@ -15,6 +15,7 @@ const Searchbar = () => (
         type="search"
         value=""
         onChange={() => {}}
+        className="flex-1 bg-transparent border-none outline-none placeholder-gray-500 text-base text-white p-4"
       />
     </div>
   </form>
